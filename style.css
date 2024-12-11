@@ -237,7 +237,7 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    flex-basis: 40vw;
+    flex-basis: 30vw;
     line-height: 1.5;
     
 }
@@ -253,14 +253,15 @@ html {
     text-align: center;
     width: 20vw;
     flex-basis: 19vw;
-    margin: 0 0 22em -22em;
+    margin: 0 0 22em -20em;
 
 }
 
 .pageFooterBox {
 
-    flex-basis: 5vw;
+    flex-basis: 4vw;
     width: 70vw;
+
 }
 
 
