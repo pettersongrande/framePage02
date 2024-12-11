@@ -106,6 +106,13 @@ html {
 
 }
 
+.pageHeader a:hover {
+
+    color: lightblue;
+    font-size: 1.1em;
+
+}
+
 .pageHeaderContent {
 
     align-content: center;
@@ -124,9 +131,9 @@ html {
 
 .pgc-1 img {
 
-    border: 1px solid black;
-    height: 10vh;
-    width: 10vw;
+    /* border: 1px solid black; */
+    height: 7vh;
+    width: 4vw;
 
 }
 
@@ -163,12 +170,13 @@ html {
     height: 89vh;
     width: 100vw;
     background-color: #fff;
-    border-bottom: 2px solid silver   
+    /* border-bottom: 2px solid silver;  */
 
 }
 
 .welcomeCenter {
-
+    display: flex;
+    justify-content: center;
     align-content: center;
     text-align: center;
     /* border: 1px solid orange; */    
@@ -185,9 +193,11 @@ html {
 .welcomeImg img {
 
     margin-top: 1em;
-    border: 1px solid black;
-    height: 50vh;
-    width: 50vw;
+    /* border: 1px solid black; */
+    border-radius: 50em;
+    height: 51vh;
+    width: 72vw;
+    /* background-size: cover; */
 
 }
 
@@ -195,9 +205,36 @@ html {
 
     flex: 50%;
     width: 100vw;
-    padding-bottom: 10em;
+    padding-bottom: 1em;
+    font-size: 2.5rem;
+    color: #000;
 
 } 
+
+.welcomeMsg h1 {
+
+    display: block;
+    border-bottom: 1px solid silver;
+    width: 50vw;
+    align-self: center;
+
+}
+
+
+
+.welcomeContainer:after {
+
+    top: 90vh;
+    position: absolute;
+    font-size: 2.5rem;
+    margin-bottom: 0.6em;
+    border-radius: 100%;
+    color: #000;
+    content: "↡";
+    transform: translate(-50%, 0);
+    cursor: pointer;
+
+}
 
 /* MAIN CONTENT CONTAINER */
 
@@ -208,6 +245,7 @@ html {
     justify-content: space-evenly;
     flex-wrap: wrap;
     background-color: lightslategray;
+    border-radius: 0.3em;
     width: 80vw;
     height: 100vh;
 
@@ -222,7 +260,9 @@ html {
     border: 1px solid silver;
     border-radius: 0.5em;
     width: 50vw;
-    margin: 0 0 0 3em
+    margin: 0 0 0 3em;
+    padding-left: 1em;
+      
 
 }
 
@@ -230,7 +270,9 @@ html {
 
     flex-basis: 8vw;
     font-weight: bolder;
-
+    line-height: 2.5;
+    text-align: start;
+    
 }
 
 .pageContentBox {
