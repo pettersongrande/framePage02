@@ -1,0 +1,270 @@
+/* CSS RESET */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+
+}
+
+
+/* CSS RESET FOR OLDER BROWSERS */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    
+    display: block;
+}
+
+body {
+
+    line-height: 1;
+
+}
+
+blockquote, q {
+    
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+
+    content: '';
+    content: none;
+
+}
+
+table {
+    
+    border-collapse: collapse;
+    border-spacing: 0;
+
+}
+
+strong, b {
+
+    font-weight: bold;
+
+}
+
+em, i {
+
+    font-style: italic;
+
+}
+
+a img {
+    
+    border: none;
+
+}
+
+/* END RESET */
+
+/* INDEX PAGE STYLES */
+
+html {
+
+    scroll-behavior: smooth;
+    scrollbar-width:none;
+    font-family: 'Helvetica Neue',sans-serif;
+    color: #000;
+
+}
+
+.pageStructureContainer {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100vw;
+    background-color: #fff;
+
+}
+
+/* HEADER STYLES */
+
+.pageHeader {
+
+    display: flex;
+    justify-content: center;
+    flex: 100%;
+    height: 14vh;
+    width: 100%;
+    border-bottom: px solid #000;
+
+}
+
+.pageHeader a {
+
+    text-decoration: none;
+    color: #000;
+    font-weight: bolder;
+    padding-right: 1em;
+
+}
+
+.pageHeaderContent {
+
+    align-content: center;
+    background-color: lightslategray;
+    /* border: 1px solid blue; */
+
+}
+
+.pgc-1 {
+
+    text-align: left;
+    padding-left: 2em;
+    flex: 10%;
+
+}
+
+.pgc-1 img {
+
+    border: 1px solid black;
+    height: 10vh;
+    width: 10vw;
+
+}
+
+.pgc-2 {
+
+    text-align: end;
+    flex: 25%;
+
+}
+
+.pgc-3 {
+
+    text-align: end;
+    padding-left: 1em;    
+
+}
+
+.pgc-4 {
+
+    text-align:end;
+    padding-left: 1em;
+
+}
+
+/* Welcome CONTAINER */
+
+.welcomeContainer {
+
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    align-items: center;
+    flex: 100%;
+    height: 89vh;
+    width: 100vw;
+    background-color: #fff;
+    border-bottom: 2px solid silver   
+
+}
+
+.welcomeCenter {
+
+    align-content: center;
+    text-align: center;
+    /* border: 1px solid orange; */    
+
+}
+
+.welcomeImg {
+
+    flex: 50%;
+    width: 100vw;    
+
+}
+
+.welcomeImg img {
+
+    margin-top: 1em;
+    border: 1px solid black;
+    height: 50vh;
+    width: 50vw;
+
+}
+
+.welcomeMsg {
+
+    flex: 50%;
+    width: 100vw;
+    padding-bottom: 10em;
+
+} 
+
+/* MAIN CONTENT CONTAINER */
+
+.mainContentContainer {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: lightslategray;
+    width: 80vw;
+    height: 100vh;
+
+
+}
+
+.mainContent {
+
+    align-content: center;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid silver;
+    border-radius: 0.5em;
+    width: 50vw;
+    margin: 0 0 0 3em
+
+}
+
+.contentHeadline {
+
+    flex-basis: 8vw;
+    font-weight: bolder;
+
+}
+
+.pageContentBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-basis: 40vw;
+    line-height: 1.5;
+    
+}
+
+.contentFooterBox {
+    
+    flex-basis: 4vw;  
+
+}
+
+.asideBox-1 {
+
+    text-align: center;
+    width: 20vw;
+    flex-basis: 19vw;
+    margin: 0 0 22em -22em;
+
+}
+
+.pageFooterBox {
+
+    flex-basis: 5vw;
+    width: 70vw;
+}
+
+
+
+
+
+
